@@ -13,12 +13,6 @@ function createObject(parentTag){
 		var child=parentTag.children[i];
 		childTags[i]=createObject(child);
 	};
-	dom={
-		tag: innerTag,
-		class: innerClass,
-		content: parentTag.innerText,
-		children: childTags,
-		}
 	if(innerTag=="img"){
 		dom={
 			tag: innerTag,
