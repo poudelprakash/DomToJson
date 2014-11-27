@@ -14,10 +14,10 @@ function createObject(parentTag){
 		childTags[i]=createObject(child);
 	};
 	dom={
-			tag: innerTag,
-			class: innerClass,
-			content: parentTag.innerText,
-			children: childTags,
+		tag: innerTag,
+		class: innerClass,
+		content: parentTag.innerText,
+		children: childTags,
 		}
 	if(innerTag=="img"){
 		dom={
